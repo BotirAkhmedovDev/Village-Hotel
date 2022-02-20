@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: -moz-hidden-unscrollable;
+}
+body{
+    height: 665px;
+}
+header{
+    display: flex;    
+    flex-direction: column;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    border: 5px solid green;
+    background-color: olivedrab;
+    width: 18%;
+    height: 665px;
+}
+.img-fluid{
+    padding: 30px;
+    margin: 15px;
+    width: 200px;
+}
+.logotext{
+    color: firebrick;
+    font-size: 38px;
+    font-family: serif;
+    margin-left: 10px;
+    margin-top: -20px;
+}
+ul{
+    display: flex;    
+    flex-direction: column;
+    align-content: space-between;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+ul li{
+    padding: 25px;
+    padding-left: 82px;
+}
+.ul_a{
+    color: white;
+    text-decoration: none;
+}
+.ul_a:hover{
+    text-decoration: none;
+    color: coral;
+    padding-left: 10px;
+    transition: all .3s ease-in;
+}
+#content{
+    margin-left: 250px;
+    margin-top: -680px;
+}
+.welcome{
+    background-color: greenyellow;
+    border-radius: 20px;
+}
+.welcome1{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-style: italic;
+    font-stretch: extra-condensed;
+}
+.welcomeimg{
+    width: 150px;
+    float: right;
+    margin-top: -80px;
+}
+.welcomeimg1{
+    display: none;
+    width: 150px;
+    float: right;
+    margin-top: -80px;
+}
+.showcase{
+    background-image: url(../img/signup-bg.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: auto;
+    height: 400px;
+}
+.show{
+    padding-top: 70px;
+    color: white;
+    margin: 0;
+}
+.showimg{
+    width: 150px;
+    margin-top: -38px;
+}
+
+.clear{
+    clear: both;
+}
+
+footer{
+    background-image: url(../img/heading-bg.jpg);
+    background-origin: border-box;
+    background-attachment: fixed;
+    width: 82%;
+    margin-bottom: -50px;
+    margin-left: 242px;
+    height: 84px;
+    color: white;
+}
+.bolinish{
+    width: 100%;
+
+}
+.left{
+    float: left;
+    width: 50%;
+    padding: 20px;
+    text-align: left;
+}
+.right{
+    padding: 30px;
+    float: right;
+    width: 50%;
+    text-align: right;
+}
+
+
+.active{
+    color: coral;
+}
+iframe{
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+.ifrtex{
+    margin-top: -300px;
+    margin-right: 100px;
+    padding-left: 350px;
+}
+
+/* Contact */
+.contact{
+    padding: 20px;
+    margin-bottom: 385px; 
+}
+.login{
+    padding-left: 20px;
+    float: left;
+    width: 40%;
+    border-left: 2px dashed black;
+    height: 454px;
+}
+.registry{
+    float: right;
+    width: 60%;
+    background-color: aliceblue;
+    border-left: 2px dashed black;
+}
+.formright{
+    float: right;
+    margin-top: -250px;
+    margin-right: 100px;
+}
+.formright1{
+    float: right;
+    margin-top: -250px;
+    margin-right: 170px;
+}
+.input{
+    padding: 5px;
+    padding-left: 10px;
+    height: 32px;
+    border: 3px solid grey;
+    border-radius: 15px;
+    font-size: 18px;
+}
+form{
+    padding-left: 30px;
+}
+.ff{
+    margin-top: -67px;
+    margin-left: 70px;
+}
+
+@media (max-width: 370px) {
+    body{
+        margin: 0;
+        padding: 0;
+        width: 359px;
+        height: 640px;
+    }
+    header{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: center;
+        justify-content: flex-start;
+        border: 5px solid green;
+        background-color: olivedrab;
+        width: 37%;
+        height: 1140px;
+        margin-top: 0px;
+        flex-wrap: nowrap;
+    }
+    .ind{
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        align-items: center;
+        justify-content: flex-start;
+        border: 5px solid green;
+        background-color: olivedrab;
+        width: 37% ;
+        height: 580px !important;
+        margin-top: 0px;
+        flex-wrap: nowrap;
+    }
+
+    
+
+    .img-fluid{
+        padding: 10px;
+        margin: 0px;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    .logotext{
+        overflow: hidden;
+        text-align: center;
+        color: wheat;
+        font-size: 38px;
+        font-family: serif;
+        margin-left: 0px;
+        margin-top: -20px;
+    }
+    ul{
+        overflow: hidden;
+        display: flex;    
+        flex-direction: column;
+        align-content: space-between;
+        align-items: flex-start;
+        justify-content: space-evenly;
+    }
+    ul li{
+        padding: 15px;
+        padding-left: 30px;
+    }
+    .ul_a{
+        color: white;
+        text-decoration: none;
+    }
+    .ul_a:hover{
+        text-decoration: none;
+        color: coral;
+        padding-left: 10px;
+        transition: all .3s ease-in;
+    }
+    
+    #content{
+        margin-left: 135px;
+        margin-right: 3px;
+        margin-top: -1152px;
+    }
+    .welcome{
+        background-color: coral;
+        border-radius: 15px;
+        margin-bottom: 162px;
+    }
+    .welcome1{
+        font-size: 28px;
+        font-family:'Courier New', Courier, monospace;
+        font-weight: 600;
+        font-style: italic;
+        font-stretch: extra-condensed;
+    }
+    .wel{
+        font-size: 14px;
+        margin-top: -20px;
+        padding-right: 2px;
+        padding-left: 3px;
+        
+    }
+    .welcomeimg{
+        margin-right: 30px;
+        width: 100px;
+        float: left;
+        margin-top: -10px;
+    }
+    .welcomeimg1{
+        display: inline;
+        width: 100px;
+        float: right;
+        margin-top: -100px;
+    }
+    .showcase{
+        display: none;
+        background-image: url(../img/signup-bg.jpg);
+        background-position: right;
+        background-attachment: unset;
+        background-repeat: no-repeat;
+        width: auto;
+        height: 700px;
+    }
+    .show{
+        padding-top: 70px;
+        color: white;
+        margin: 0;
+    }
+
+    .showimg{
+        width: 150px;
+        margin-top: -50px;
+    }
+    
+    .clear{
+        clear: both;
+    }
+    
+    footer{
+        background-image: url(../img/banner-bg.jpg);
+        background-origin: border-box;
+        background-attachment: fixed;
+        background-size: contain;
+        width: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        padding: 0px;
+        margin-left: 0px;
+        /* height: 100% !important; */
+        color: white;
+        font-size: 13px;
+    }
+    .bolinish{
+        width: 100%;
+    
+    }
+    .left{
+        float: left;
+        width: 50%;
+        padding: 8px 4px 3px 10px;
+        text-align: left;
+    }
+    .right{
+        padding: 30px;
+        float: right;
+        width: 50%;
+        text-align: right;
+    }
+    .active{
+        color: coral;
+    }
+ 
+    /* iframe */
+    iframe{
+        margin: 10px;
+        padding: 10px;
+        width: 150px;
+        height: 150px;
+        margin-bottom: 201px;
+    }
+    .ifrtex{
+        display: none;
+        margin-top: -20px;
+        margin-right: 100px;
+        padding-left: 10px;
+    }
+    .serv{
+        display: none;
+        margin-left: -20;
+        padding-left: 50px;
+    }
+    
+    /* Contact */
+    .contact{
+        margin-left: -20px;
+        padding-bottom: 385px; 
+    }
+    .login{
+        padding-left: 0px;
+        float: left;
+        width: 40%;
+        border-left: 2px dashed black;
+        height: 454px;
+    }
+    .registry{
+        margin-top: -170px;
+        margin-left: 0px;
+        padding-right: 50px;
+        float: left;
+        width: 225px;
+        background-color: aliceblue;
+        border-left: 2px dashed black;
+        border-top: 2px dashed black;
+    }
+    .formright{
+        float: right;
+        margin-top: 5px;
+        margin-right: 60px;
+    }
+    .formright1{
+        float: right;
+        margin-top: -38px;
+        margin-right: 130px;
+    }
+    .input{
+        padding: 2px;
+        padding-left: 3px;
+        height: 32px;
+        border: 1px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+    }
+    form{
+        padding-left: 30px;
+    }
+    .ff{
+        margin-top: -67px;
+        margin-left: 70px;
+    }
+
+    /* img row */
+    .row{
+        border: 2px solid coral;
+    }
+    .rowim{
+        width: 200px;
+        height: 130px;
+    }
+    .rowtex{
+        margin-top: -20px !important;
+        border-bottom: 2px solid black;
+    }
+}
